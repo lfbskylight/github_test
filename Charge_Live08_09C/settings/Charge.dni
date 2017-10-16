@@ -1,0 +1,151 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=712190336
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[Simulator]
+Freq=16000000
+[BreakpointUsageDialog]
+Placement=_ 578 289 1023 571
+[array_types]
+Fmt0=char[64]	4	0
+Fmt1=unsigned char[128]	4	0
+[watch_formats]
+Fmt0={W}1:Charge_Obj_Data.bat_obj.bat_current	3	0
+Fmt1={W}1:Charge_Obj_Data.bat_obj.bat_threshold	3	0
+Fmt2={W}1:length	3	0
+Fmt3={W}1:sn_length	3	0
+Fmt4={W}42:Charge_Obj_Data.bat_obj.bat_level	3	0
+Fmt5={W}42:Charge_Obj_Data.usart_obj.usart_buf_len	3	0
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp5=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp6=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp7=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp8=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp9=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp10=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp11=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp12=_ "STD_CODE" "{$PROJ_DIR$\stm8l15x_it.c}.233.4" 0 0 0 0 "" 0 ""
+Bp13=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.168.1" 0 0 0 0 "" 0 ""
+Bp14=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.168.5" 0 0 0 0 "" 0 ""
+Bp15=_ "STD_CODE" "{$PROJ_DIR$\stm8l15x_it.c}.581.1" 0 0 0 0 "" 0 ""
+Bp16=_ "STD_CODE" "0x00A11C" 0 0 0 0 "" 0 ""
+Bp17=_ "STD_CODE" "{$PROJ_DIR$\stm8l15x_it.c}.302.1" 0 0 0 0 "" 0 ""
+Bp18=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp19=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp20=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp21=_ "STD_CODE" "{$PROJ_DIR$\Lib\src\stm8l15x_i2c.c}.259.5" 0 0 0 0 "" 0 ""
+Bp22=_ "STD_CODE" "{$PROJ_DIR$\comm.c}.406.9" 0 0 0 0 "" 0 ""
+Bp23=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.998.1" 0 0 0 0 "" 0 ""
+Bp24=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.998.1" 0 0 0 0 "" 0 ""
+Bp25=_ "STD_CODE" "{$PROJ_DIR$\keyproc.c}.93.6" 0 0 0 0 "" 0 ""
+Bp26=_ "STD_CODE" "{$PROJ_DIR$\comm.c}.541.1" 0 0 0 0 "" 0 ""
+Bp27=_ "STD_CODE" "{$PROJ_DIR$\comm.c}.541.13" 0 0 0 0 "" 0 ""
+Bp28=_ "STD_CODE" "{$PROJ_DIR$\stm8l15x_it.c}.169.5" 0 0 0 0 "" 0 ""
+Bp29=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp30=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.1" 0 0 0 0 "" 0 ""
+Bp31=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.998.1" 0 0 0 0 "" 0 ""
+Bp32=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.1856.5" 0 0 0 0 "" 0 ""
+Bp33=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.998.1" 0 0 0 0 "" 0 ""
+Bp34=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.998.1" 0 0 0 0 "" 0 ""
+Bp35=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.998.1" 0 0 0 0 "" 0 ""
+Bp36=_ "STD_CODE" "{$PROJ_DIR$\stm8l15x_it.c}.190.6" 0 0 0 0 "" 0 ""
+Bp37=_ "STD_CODE" "{$PROJ_DIR$\stm8l15x_it.c}.326.5" 0 0 0 0 "" 0 ""
+Bp38=_ "STD_CODE" "{$PROJ_DIR$\stm8l15x_it.c}.279.4" 0 0 0 0 "" 0 ""
+Bp39=_ "STD_CODE" "{$PROJ_DIR$\stm8l15x_it.c}.200.5" 0 0 0 0 "" 0 ""
+Bp40=_ "STD_CODE" "{$PROJ_DIR$\main.c}.64.5" 0 0 0 0 "" 0 ""
+Bp41=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.998.1" 0 0 0 0 "" 0 ""
+Bp42=_ "STD_CODE" "{$PROJ_DIR$\main.c}.122.21" 0 0 0 0 "" 0 ""
+Bp43=_ "STD_CODE" "{$PROJ_DIR$\stm8l15x_it.c}.496.9" 0 0 0 0 "" 0 ""
+Bp44=_ "STD_CODE" "{$PROJ_DIR$\comm.c}.531.15" 0 0 0 0 "" 0 ""
+Bp45=_ "STD_CODE" "{$PROJ_DIR$\comm.c}.549.17" 0 0 0 0 "" 0 ""
+Bp46=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.998.1" 0 0 0 0 "" 0 ""
+Bp47=_ "STD_CODE" "{$PROJ_DIR$\comm.c}.520.63" 0 0 0 0 "" 0 ""
+Bp48=_ "STD_CODE" "{$PROJ_DIR$\keyproc.c}.129.5" 0 0 0 0 "" 0 ""
+Bp49=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.2052.15" 0 0 0 0 "" 0 ""
+Bp50=_ "STD_CODE" "{$PROJ_DIR$\comm.c}.391.9" 0 0 0 0 "" 0 ""
+Bp51=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.998.3" 0 0 0 0 "" 0 ""
+Bp52=_ "STD_CODE" "{$PROJ_DIR$\keyproc.c}.216.5" 0 0 0 0 "" 0 ""
+Bp53=_ "STD_CODE" "{$PROJ_DIR$\stm8l15x_it.c}.191.5" 0 0 0 0 "" 0 ""
+Bp54=_ "STD_CODE" "{$PROJ_DIR$\stm8l15x_it.c}.214.5" 0 0 0 0 "" 0 ""
+Bp55=_ "STD_CODE" "{$PROJ_DIR$\keyproc.c}.53.4" 0 0 0 0 "" 0 ""
+Bp56=_ "STD_CODE" "{$PROJ_DIR$\battery.c}.506.5" 0 0 0 0 "" 0 ""
+Bp57=_ "STD_CODE" "{$PROJ_DIR$\keyproc.c}.71.3" 0 0 0 0 "" 0 ""
+Bp58=_ "STD_CODE" "{$PROJ_DIR$\keyproc.c}.53.41" 1 0 0 0 "" 0 ""
+Bp59=_ "STD_CODE" "{$PROJ_DIR$\main.c}.200.1" 0 0 0 0 "" 0 ""
+Bp60=_ "STD_CODE" "{$PROJ_DIR$\main.c}.200.4" 0 0 0 0 "" 0 ""
+Bp61=_ "STD_CODE" "{$PROJ_DIR$\charge.c}.814.32" 1 0 0 0 "" 0 ""
+Bp62=_ "STD_CODE" "{$PROJ_DIR$\comm.c}.553.22" 1 0 0 0 "" 0 ""
+Bp63=_ "STD_CODE" "{$PROJ_DIR$\comm.c}.552.22" 1 0 0 0 "" 0 ""
+Bp64=_ "STD_CODE" "{$PROJ_DIR$\comm.c}.608.21" 1 0 0 0 "" 0 ""
+Bp65=_ "STD_CODE" "{$PROJ_DIR$\comm.c}.624.21" 1 0 0 0 "" 0 ""
+Bp66=_ "STD_CODE" "{$PROJ_DIR$\comm.c}.125.3" 1 0 0 0 "" 0 ""
+Count=67
+[Aliases]
+A0=_ "E:\MCU\Charge_Live07_Shenzhen\Lib\src\stm8l15x_adc.c" ""
+A1=_ "E:\MCU\Charge_Live07_Shenzhen\battery.c" ""
+A2=_ "E:\MCU\beifen\2017_02_27\Charge_Live07_XiAn_Andriod\Lib\src\stm8l15x_adc.c" ""
+A3=_ "E:\MCU\beifen\2017_02_27\Charge_Live07_XiAn_Andriod\Lib\src\stm8l15x_exti.c" ""
+A4=_ "E:\MCU\beifen\2017_02_27\Charge_Live07_XiAn_Andriod\Lib\src\stm8l15x_tim4.c" ""
+A5=_ "E:\MCU\beifen\2017_02_27\Charge_Live07_XiAn_Andriod\charge.c" ""
+A6=_ "E:\MCU\beifen\2017_02_27\Charge_Live07_XiAn_Andriod\main.c" ""
+A7=_ "E:\MCU\beifen\2017_02_27\Charge_Live07_XiAn_Andriod\stm8l15x_it.c" ""
+A8=_ "E:\MCU\beifen\2017_02_27\Charge_Live07_XiAn_Andriod\time.c" ""
+Count=9
+SuppressDialog=0
+[DebuggerSettings]
+DisableInterruptsWhenStepping=0
